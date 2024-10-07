@@ -2,7 +2,7 @@ import React from 'react';
 import { Section } from 'react-fullpage';
 import ProfileImage from './ProfileImage';
 import styled from 'styled-components';
-import Item from './item';
+import Item from './Item';
 
 const Wrapper = styled.div`
   padding-top: 51px;
@@ -40,7 +40,14 @@ const InfoAbout = () => {
         <div className="layout-width">
           <h1>INFO & ABOUT</h1>
           <div className=" inner">
-            <Item title="INFO"></Item>
+            <Item title="INFO">
+              <p>KANG TAEHYUN</p>
+              <p>1998.09.08</p>
+              <p>EMAIL</p>
+              <p>kth7537@naver.com</p>
+              <p>ADDRESS</p>
+              <p>Gimpo City, Gyeonggi</p>
+            </Item>
             <Item title="ABOUT"></Item>
           </div>
         </div>
